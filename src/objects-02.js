@@ -109,7 +109,7 @@ function getColorValue(color) {
  * Or - https://mzl.la/3DnsESS
  */
 function testForColor(color) {
-  // write your code here & return value
+  return color in colorHexCodes;
 }
 
 module.exports = {
